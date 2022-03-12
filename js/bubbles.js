@@ -29,6 +29,8 @@ function draw() {
 }
 
 window.onresize = function() {
+    navWidth = nav.offsetWidth, 
+    navHeight = nav.offsetHeight;
     resizeCanvas(navWidth, navHeight);
 }
 
